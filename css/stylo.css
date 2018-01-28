@@ -1,0 +1,73 @@
+.iz{
+	text-align: right;
+}
+
+*{
+	font-family:Bodoni MT;
+}
+html{
+	background-color: black;
+}
+
+body{
+	background: url(../images/reg.jpg) no-repeat center;
+	background-color: white;
+	
+
+}
+label{
+	color: black;
+	
+	font-size: 20px;
+	padding: 0px 10px;
+}
+input[type=submit]{
+			position: relative;
+			display: inline-block;
+			margin-top: 0.5em;
+			padding: 0.50em 1.5em;
+			background: #e95d3c;
+			border-radius: 6px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.1em;
+			color: #FFF;
+			cursor: pointer;
+}
+button:hover
+			{
+				background: #de3d27;
+				color: #FFF !important;
+			}
+input[type=text],input[type=password]{
+	font-size: 20px;
+	background-color: white;
+}
+button{
+			position: relative;
+			display: inline-block;
+			margin-top: 0.5em;
+			padding: 0.50em 1.5em;
+			background: #e95d3c;
+			border-radius: 6px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.1em;
+			color: white;
+			cursor: pointer;
+}.perfil{
+	text-align: center;
+}
+.contacto{
+	text-align: center;
+}
+textarea{
+	font-size: 20px;
+	background-color: white;
+}.formulario{
+	text-align: right;
+	padding:5em 5em;
+	width: 35%;
+	height: 40%;
+	margin: auto;
+}

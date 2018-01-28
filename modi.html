@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylo.css">
+	<title>Perfil</title>
+</head>
+<body>
+<form action="modifi.php" method="post">
+	<div class="perfil">
+	<label>Nombre</label>
+	<p></p>
+	<input type="text" name="nom">
+	<p>
+	</p>
+	<label>Apellido</label>
+	<p></p>
+	<input type="text" name="ape" >
+	<p></p>
+	<label>Sexo</label>
+			<input type="radio" name="sex" value="Masculino" required>
+			<label>Masculino</label>
+			<input type="radio" name="sex" value="Femenino" required>
+			<label>Femenino</label>
+			<p></p>
+	<label>telefono</label>
+	<input type="text" name="tel" >
+	<p></p>
+	<label>Correo</label>
+	<p></p>
+	<input type="text" name="cor" >
+	<p></p>
+	<label>Contraseña</label>
+	<p></p>
+	<input type="text" name="con">
+	
+	<br>
+	</div>
+</body>
+<a href="index.php"><button>Volver</button></a>
+<input type="submit" name="submit" value="Enviar Nuevos Datos">
+</form>
+
+</html>
